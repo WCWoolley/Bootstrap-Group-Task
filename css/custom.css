@@ -24,3 +24,16 @@
   color: #0a8754;
 }
 /*---------------NAV BAR---------------------- */
+.footernav{
+  background: #004f2d;
+
+}
+
+.footer{
+  background-color: #004f2d;
+  color:#bfd7ea;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
