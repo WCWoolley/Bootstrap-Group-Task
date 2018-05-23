@@ -1,5 +1,9 @@
+body {
+  background-color: #508ca4;
+}
+
 /*---------------NAV BAR---------------------- */
-.navbar {
+.navbar{
   background: #0a8754;
   border-radius:0 0 5px 5px;
 }
@@ -11,11 +15,11 @@
 .form-control{
   background: #bfd7ea;
 }
-.navbar-form  {
+.navbar-form {
   margin-right: 30%;
 }
 
-.navbar-form .form-control {
+.navbar-form .form-control{
   width:400px;
 }
 
@@ -24,6 +28,8 @@
   color: #0a8754;
 }
 /*---------------NAV BAR---------------------- */
+
+/*---------------FOOTER BAR---------------------- */
 .footernav{
   background: #004f2d;
 
@@ -37,3 +43,4 @@
   flex-direction: row;
   justify-content: space-between;
 }
+/*---------------FOOTER BAR---------------------- */
