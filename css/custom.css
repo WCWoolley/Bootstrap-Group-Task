@@ -2,6 +2,7 @@
 .navbar {
   background: #0a8754;
   border-radius:0 0 5px 5px;
+  width: 100%;
 }
 
 .navbar-brand{
@@ -26,7 +27,6 @@
 /*---------------NAV BAR---------------------- */
 .footernav{
   background: #004f2d;
-
 }
 
 .footer{

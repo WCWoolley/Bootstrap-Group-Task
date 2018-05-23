@@ -11,25 +11,35 @@
   <title>Faketube</title>
 </head>
 <body>
-  <div class="fluid-container">
+  <div class="container-fluid">
 
-    <nav class="navbar navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
-        </div>
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-expand"></span>FakeTube</a>
-        </div>
-        <form class="navbar-form navbar-right">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search..">
-          </div>
-          <button type="submit" class="btn">Submit</button>
-        </form>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav> <!--nav close -->
+    <div class="row">
+      <div class="col-md-12">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
+            </div>
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-expand"></span>FakeTube</a>
+            </div>
+            <form class="navbar-form navbar-right">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search..">
+              </div>
+              <button type="submit" class="btn">Submit</button>
+            </form>
+          </div><!-- /.container-fluid -->
+        </nav> <!--nav close -->
+      </div> <!--column close -->
+    </div> <!--row close -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-1 hidden-sm hidden-xs">Catagories</div>
+        <div class="col-md-11 col-sm-12 col-xs-12">Main</div>
+      </div>
+    </div>
 
     <div class="footer navbar-fixed-bottom">
       <div class="footer">
@@ -42,6 +52,7 @@
         </div>
     </div>
 
-  </div><!-- fluid container close -->
+  </div>
+
 </body>
 </html>
