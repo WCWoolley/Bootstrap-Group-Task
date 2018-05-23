@@ -1,11 +1,12 @@
-body {
-  background-color: #508ca4;
+body{
+  background-color:#bfd7ea;
 }
 
 /*---------------NAV BAR---------------------- */
 .navbar{
   background: #0a8754;
   border-radius:0 0 5px 5px;
+  margin-bottom: 0;
 }
 
 .navbar-brand{
