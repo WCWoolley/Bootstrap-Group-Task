@@ -1,0 +1,26 @@
+/*---------------NAV BAR---------------------- */
+.navbar {
+  background: #0a8754;
+  border-radius:0 0 5px 5px;
+}
+
+.navbar-brand{
+  color:#bfd7ea;
+}
+
+.form-control{
+  background: #bfd7ea;
+}
+.navbar-form  {
+  margin-right: 30%;
+}
+
+.navbar-form .form-control {
+  width:400px;
+}
+
+.btn{
+  background: #bfd7ea;
+  color: #0a8754;
+}
+/*---------------NAV BAR---------------------- */
