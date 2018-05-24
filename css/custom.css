@@ -44,6 +44,10 @@ body{
   flex-direction: row;
   justify-content: space-between;
 }
+
+.space3{
+  width: 60%;
+}
 /*---------------FOOTER BAR---------------------- */
 
 
